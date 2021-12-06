@@ -31,33 +31,17 @@ public class CadastrarParticipantesTestSteps {
 	private String participanteCadastrado;
 	private String statusDadosCadastro;
 	private int statusEsperadoApp;
-	private int statusEsperadoEQ3;	
+	private int statusEsperadoEQ3;
+	private int statusEQ3;	
 	
 	
 	@Dado("que estou na plataforma de seguros para a criação de um participante \"([^\"]*)\"$")
 	public void queEstouNaPlataformaDeSegurosParaACriacaoDeUmParticipante(String pessoaExiste) {
-		boolean isCnpjValido;
-		int statusEQ3 = "SIM".equalsIgnoreCase(pessoaExiste) ? HttpStatus.OK.value() : HttpStatus.NO_CONTENT.value();
+		this.statusEQ3 = "SIM".equalsIgnoreCase(pessoaExiste) ? HttpStatus.OK.value() : HttpStatus.NO_CONTENT.value();
 		
 		this.urlApp = new StringBuilder()
 				.append("url chamada")
 				.toString();
-		
-		String rotaEq3 = "url chamada com parametro";
-		
-		do {
-			this.numeroDocumento = "41576265845";
-			
-			this.urlEq3 = new StringBuilder()
-					.append(rotaEq3)
-					.append(numeroDocumento)
-					.toString();
-			
-			ValidatableResponse responseEQ3 = RestAssured.get(urlEq3).then();
-			
-			isCnpjValido = responseEQ3.extract().statusCode() == statusEQ3;
-		} while(isCnpjValido);
-		
 		
 	}
 	
@@ -66,9 +50,27 @@ public class CadastrarParticipantesTestSteps {
 	public void informoOsDadosDeCadastroDeUmParticipanteDoTipoPessoa(String statusDadosCadastro, String participanteCadastrado, String tipoParticipante) {
 //		this.payload = "JURIDICA".equalsIgnoreCase(tipoParticipante) ? new Object() : new Object();
 //																	    juridica		fisica
+		boolean isCnpjValido;
+		String rotaEq3 = "url chamada com parametro";		
 		this.statusDadosCadastro = statusDadosCadastro;
 		this.tipoParticipante = tipoParticipante;
 		this.participanteCadastrado = participanteCadastrado;
+		
+		if("JURIDICA".equalsIgnoreCase(tipoParticipante)) {
+			do {
+				this.numeroDocumento = "41576265845";
+				
+				this.urlEq3 = new StringBuilder()
+						.append(rotaEq3)
+						.append(numeroDocumento)
+						.toString();
+				
+				ValidatableResponse responseEQ3 = RestAssured.get(urlEq3).then();
+				
+				isCnpjValido = responseEQ3.extract().statusCode() == statusEQ3;
+			} while(isCnpjValido);
+		}
+		
 		
 		this.payload = gerarParticipante();
 		
@@ -111,7 +113,13 @@ public class CadastrarParticipantesTestSteps {
 				return new Object();
 //				  participante ja cadastrado				
 			}else if(this.statusEsperadoApp != 200){
-				
+				if("INCOMPLETO".equalsIgnoreCase(this.statusDadosCadastro)) {
+					return new Object();
+//				       participante incompleto						
+				}else {
+					return new Object();
+//				       participante invalido						
+				}
 			}else {
 				return new Object();
 //				     participante novo					
