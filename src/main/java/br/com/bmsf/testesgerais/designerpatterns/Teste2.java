@@ -1,4 +1,4 @@
-package br.com.bmsf.designerpatterns;
+package br.com.bmsf.testesgerais.designerpatterns;
 
 public class Teste2 {
 	

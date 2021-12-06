@@ -1,4 +1,4 @@
-package br.com.bmsf.designerpatterns;
+package br.com.bmsf.testesgerais.designerpatterns;
 
 import java.util.Map;
 

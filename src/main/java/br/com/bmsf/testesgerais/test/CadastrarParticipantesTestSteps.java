@@ -1,4 +1,4 @@
-package br.com.bmsf.test;
+package br.com.bmsf.testesgerais.test;
 
 import javax.validation.constraints.AssertTrue;
 
@@ -8,8 +8,8 @@ import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.path.json.JsonPath;
 import com.jayway.restassured.response.ValidatableResponse;
 
-import br.com.bmsf.designerpatterns.ChamadaParticipante;
-import br.com.bmsf.designerpatterns.MontarChamada;
+import br.com.bmsf.testesgerais.designerpatterns.ChamadaParticipante;
+import br.com.bmsf.testesgerais.designerpatterns.MontarChamada;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.E;
 import io.cucumber.java.pt.Entao;
