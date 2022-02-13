@@ -1,1 +1,101 @@
-Anotações Gerais
+ANOTACOES GERAIS
+
+######## OKRs RT ##############
+# Mais com Menos Simples Sempre
+	+ EMPs e Atacado: Crescer em Prêmio de Vendas(delta R$ 6 MM)
+		++ Dúvidas
+			+++ O que é EMPs?
+			+++ Qual é o valor de prêmio de vendas atual?
+		++ Alinhado
+			+++ Acredito que a squad irá movimentar esse KR visto que o modulos digitais que estamos construindo(Participante, Produto e Oferta) são enables
+				para os demais serviços digitais da plataforma e a mesma tem o objetivo de facilitar e melhorar a disponibilidade de novos produtos. Dessa forma, com a entrega
+				da plataforma existira uma maior gama de produtos distribuidos e que são mais alinhados a realidade do cliente levando a um crescimento nas vendas
+		
+	+ IPP Prestamista: Crescer 8 p.p. na penetração no crédito (delta 8 p.p.)
+		++ Dúvidas
+			+++ O que é penetração no crédito?		
+		
+	+ Custos: Redução de 2 p.p. sob o custo/pb orçado (delta -2 p.p.)
+		++ Dúvidas
+			+++ Quais são os custos exatamente? Custo de operação, contratou ou outros?
+			+++ Quanto é o custo orçado atual?
+	
+	+ Prêmio de vendas: aumentar de R$ 454 MM para R$ 475 MM (delta R$ 21 MM)
+		++ Alinhado
+			+++ Acredito que a squad irá movimentar esse KR visto que o modulos digitais que estamos construindo(Participante, Produto e Oferta) são enables
+				para os demais serviços digitais da plataforma e a mesma tem o objetivo de facilitar e melhorar a disponibilidade de novos produtos. Dessa forma, com a entrega
+				da plataforma existira uma maior gama de produtos distribuidos e que são mais alinhados a realidade do cliente levando a um crescimento nas vendas		
+	
+	+ Conversão de Leads dos Consultores da AGL(Gerente + O2O): Aumentar para 60% (delta 15 p.p.)
+
+# Reforçar os Alicerces para ser Escalável
+	+ Reduzir dos erros na apuração de incentivos no próximo tri(delta - 2 p.p.)
+		++ Dúvidas
+			+++ Como ou o que provoca o erro na apuração?
+			
+	+ Evolução da jornada do consultor PJ (delta 1)
+		++ Dúvidas
+			+++ Como é a jornada?		
+
+	+ Conectar a nova plataforma de seguros em um novo canal (delta 1) 
+		++ Dúvidas
+			+++ Novo canal seria o canal de distribuição de um participante do tipo distribuidor?
+			
+		++ Alinhado
+			+++ Acredito que a squad irá movimentar esse KR visto que o modulos digitais que estamos construindo(Participante, Produto e Oferta) são enables
+				para os demais serviços digitais da plataforma e suas entregas permitiram a inclusão de novos canais de distribuição.
+
+	+ Integrar a plataforma de seguros com a do cartão branco (delta 1)	
+		++ Alinhado
+			+++ Acredito que a squad irá movimentar esse KR visto que o modulos digitais que estamos construindo(Participante, Produto e Oferta) são enables
+				para os demais serviços digitais da plataforma e suas entregas permitiram a inclusão de produtos na plataforma de seguros.	
+
+	+ Implementar inteligência de dados na subscrição e regulação (delta 6 p.p.)
+		++ Dúvidas
+			+++ O que seria subscrição e regulação nesse contexto?	
+		
+
+# Entregar o que mais Importa para o Cliente
+	+ Aumentar o % de sinistros regulados em até 15 dias para 75%(delta 8 p.p.)
+		++ Dúvidas
+			+++ Qual o fluxo de sinistros regulados? é apenas sistêmico?		
+	
+	+ Melhorar o NPS Global de Seguros com nossos serviços (delta 3 pontos)
+		++ Alinhado
+			+++ Acredito que a squad irá movimentar esse KR visto que o modulos digitais que estamos construindo(Participante, Produto e Oferta) são enables
+				para os demais serviços digitais da plataforma e a mesma tem o objetivo de facilitar e melhorar a disponibilidade de novos produtos. Dessa forma, com a entrega
+				da plataforma existira uma maior gama de produtos distribuidos e que são mais alinhados a realidade do cliente levando a uma maior satisfação. Contudo, deve-se avaliar
+				se NPS ruins são decorrente apenas de problemas sistêmicos e manuais.	
+	
+	+ Melhorar o NPS Global de CAP com nossos serviços (delta 3 pontos)
+			+++ Acredito que a squad irá movimentar esse KR visto que o modulos digitais que estamos construindo(Participante, Produto e Oferta) são enables
+				para os demais serviços digitais da plataforma e a mesma tem o objetivo de facilitar e melhorar a disponibilidade de novos produtos. Dessa forma, com a entrega
+				da plataforma existira uma maior gama de produtos distribuidos e que são mais alinhados a realidade do cliente levando a uma maior satisfação. Contudo, deve-se avaliar
+				se NPS ruins são decorrente apenas de problemas sistêmicos e manuais.	
+	
+	+ Manter retenção MOB 12 (sem CP) em 58,5%  (delta 0,0 p.p.)
+		++ Dúvidas
+			+++ O que é MOB 12?		
+	
+	+ Aumentar de 76% para 90% dos leads dos clientes atendidos em 1 d.u. (Gerente e O2O) (delta 14 p.p)
+		++ Dúvidas
+			+++ Qual o workflow do atendimento de leads do gerente?		
+	
+	+ Reduzir share de atendimento humano de 75,4% para 65% (delta - 10 p.p.)	
+
+
+Possíveis OKRs da Equipe
+	+ Ser refência na RT
+		++ diminuir a quantidade de carray overs para 0 
+		++ diminuir a quantidade de bugs 
+		++ aumentar reuso de código e codificar para uso futuro
+		++ atualização continua do confluence
+		
+	+ Impusionar a plataforma de seguros
+		++ entrega continua de funcionalidades em produção
+		++ entregar primeiro aquilo que séra usado primeiro
+	
+
+
+Obs: Objetivos não me parecem alinhados aos OKRs
+#############################
