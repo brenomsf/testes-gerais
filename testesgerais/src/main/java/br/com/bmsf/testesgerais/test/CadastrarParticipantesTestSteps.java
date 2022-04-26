@@ -1,9 +1,5 @@
 package br.com.bmsf.testesgerais.test;
 
-import javax.validation.constraints.AssertTrue;
-
-import org.springframework.http.HttpStatus;
-
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.path.json.JsonPath;
 import com.jayway.restassured.response.ValidatableResponse;
@@ -32,12 +28,14 @@ public class CadastrarParticipantesTestSteps {
 	private String statusDadosCadastro;
 	private int statusEsperadoApp;
 	private int statusEsperadoEQ3;
-	private int statusEQ3;	
+	private int statusEQ3;
+	private boolean isPessoaExiste;
 	
 	
 	@Dado("que estou na plataforma de seguros para a criação de um participante \"([^\"]*)\"$")
 	public void queEstouNaPlataformaDeSegurosParaACriacaoDeUmParticipante(String pessoaExiste) {
-		this.statusEQ3 = "SIM".equalsIgnoreCase(pessoaExiste) ? HttpStatus.OK.value() : HttpStatus.NO_CONTENT.value();
+//		this.statusEQ3 = "SIM".equalsIgnoreCase(pessoaExiste) ? HttpStatus.OK.value() : HttpStatus.NO_CONTENT.value();
+		this.isPessoaExiste = "SIM".equalsIgnoreCase(pessoaExiste) ? true : false;
 		
 		this.urlApp = new StringBuilder()
 				.append("url chamada")
@@ -128,6 +126,30 @@ public class CadastrarParticipantesTestSteps {
 			return new Object();
 		default:
 			return null;
+		}
+	}
+	
+	private void montarRotaEq3() {
+		StringBuilder rotaEq3 = new StringBuilder()
+				.append("this.tipoGateway.getUrlEq3()")
+				.append("PATH_EQ3");
+		
+		
+		switch (this.tipoParticipante) {
+		case "JURIDICA":
+			definirNumeroDocumento(rotaEq3.toString());
+			break;
+		}
+	}
+	
+	private void definirNumeroDocumento(String rotaEq3) {
+		boolean isCnpjValido;
+		String rotaEq3Consulta = rotaEq3.concat("PARAMETRO_ROTA_EQ3");
+		
+		//do while
+
+		if(this.isPessoaExiste) {		
+			
 		}
 	}
 }
