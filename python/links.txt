@@ -1,0 +1,8 @@
+# APIs 
+- https://www.fullstackpython.com/flask-json-jsonify-examples.html
+- https://www.hashtagtreinamentos.com/criacao-de-api-com-python#:~:text=Depois%20de%20criar%20sua%20conta,cria%C3%A7%C3%A3o%20de%20API%20no%20Python.&text=J%C3%A1%20dentro%20da%20sua%20conta,um%20nome%20para%20a%20cria%C3%A7%C3%A3o.
+- https://nataniel-paiva.medium.com/cria%C3%A7%C3%A3o-de-uma-api-rest-com-python-76696d17bfb9
+
+# Validation Json
+- https://medium.com/@amaralrfl/validando-json-com-json-schema-em-python-f3167a396c2a
+- https://pynative.com/python-json-validation/
