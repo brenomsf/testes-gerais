@@ -1,0 +1,36 @@
+Atualmente não tenho tanta visibilidade na comunidade de seguros, mas me considero um ponto de apoio da equipe nos problemas do dia a dia. Além disso, tento 
+quando possível desafogar o tech lead para que ele possa se dedicar a questões mais estratégicas. Tenho como visão futura dar seguindo em uma carreira mais técnica.
+
+# Aprofundamento de conhecimentos na AWS
+   Meta:  Realização de cursos
+   Como: Fazer os cursos no https://explore.skillbuilder.aws/learn (AWS Cloud Practitioner Essentials e Developer Lerning Plan)
+   Prazo: 01/11/2022
+   ---
+   Meta:  Testes ambiente pessoal da AWS 
+   Como: Rodar os serviços na conta pessoal a fim de testar as possibilidades de ganho na prática
+   Prazo: 31/12/2022
+   ---
+   Meta:  Tirar certificação 
+   Como: Prestar a prova para tirar a ‘AWS Certified Developer - Associate’
+   Prazo: 31/01/2023
+
+# Aprofundamento de conhecimentos na Salesforce
+   Meta: Realização de cursos
+   Como: Fazer os cursos no https://trailhead.salesforce.com (Introdução ao Salesforce, Aprender as noções básicas de CRM para 
+         o Lightning Experience, Administrador Iniciante e Desenvolvedor Iniciante)
+   Prazo: 01/11/2022
+
+# Melhora na comunicação/exposição de ideias
+   Meta:  Realização Apresentações
+   Como: Apresentar conteúdos relevantes para equipe a fim de desenvolver a comunicação para um público
+   Periodicidade: 15 dias/ 1 por sprint
+
+# Melhorar visão inovadora
+   Meta:  Participar de projetos open source
+   Como: Contribuir com algum projeto open source
+   Periodicidade: 31/12/2022
+
+# Expandir visão do negócio de seguros
+   Meta:  Realização de curos degreed/iox
+   Como: Realizar os cursos ...
+   Periodicidade: 31/12/2022
