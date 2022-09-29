@@ -34,3 +34,7 @@ quando possível desafogar o tech lead para que ele possa se dedicar a questões
    Meta:  Realização de curos degreed/iox
    Como: Realizar os cursos ...
    Periodicidade: 31/12/2022
+
+Links:
+https://blog.solides.com.br/como-fazer-um-pdi/
+https://www.educamaisbrasil.com.br/educacao/carreira/analise-swot-pessoal-o-que-e-e-como-fazer
