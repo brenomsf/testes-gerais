@@ -1,40 +1,101 @@
-Atualmente não tenho tanta visibilidade na comunidade de seguros, mas me considero um ponto de apoio da equipe nos problemas do dia a dia. Além disso, tento 
-quando possível desafogar o tech lead para que ele possa se dedicar a questões mais estratégicas. Tenho como visão futura dar seguindo em uma carreira mais técnica.
+PDI ITAÚ 2022
+Breno Marino de Souza Ferreira
+Engenheiro de Software PL
 
-# Aprofundamento de conhecimentos na AWS
-   Meta:  Realização de cursos
-   Como: Fazer os cursos no https://explore.skillbuilder.aws/learn (AWS Cloud Practitioner Essentials e Developer Lerning Plan)
-   Prazo: 01/11/2022
-   ---
-   Meta:  Testes ambiente pessoal da AWS 
-   Como: Rodar os serviços na conta pessoal a fim de testar as possibilidades de ganho na prática
-   Prazo: 31/12/2022
-   ---
-   Meta:  Tirar certificação 
-   Como: Prestar a prova para tirar a ‘AWS Certified Developer - Associate’
-   Prazo: 31/01/2023
+1.	Cenário Atual
+Atualmente não tenho tanta visibilidade na comunidade de seguros, mas me considero um ponto de apoio da equipe nos problemas do dia a dia. Além disso, tento quando possível desafogar o tech lead para que ele possa se dedicar a questões mais estratégicas. Tenho como visão futura continuar segundo uma carreira mais técnica.
 
-# Aprofundamento de conhecimentos na Salesforce
-   Meta: Realização de cursos
-   Como: Fazer os cursos no https://trailhead.salesforce.com (Introdução ao Salesforce, Aprender as noções básicas de CRM para 
-         o Lightning Experience, Administrador Iniciante e Desenvolvedor Iniciante)
-   Prazo: 01/11/2022
+2.	Matriz de Habilidade
 
-# Melhora na comunicação/exposição de ideias
-   Meta:  Realização Apresentações
-   Como: Apresentar conteúdos relevantes para equipe a fim de desenvolver a comunicação para um público
-   Periodicidade: 15 dias/ 1 por sprint
+Hard Skills
+Habilidade	Proficiência	Interesse
+Java	4	sim
+Angular	3	sim
+Python	2	não
+Kotlin	2	sim
+UX Design	2	não
+Design Thinking	2	não
+DevOps	3	não
+Microserviços	4	sim
+AWS	3	sim
+IoT	2	sim
+IA	2	sim
+Data Science	1	não
+Arquitetura	2	sim
 
-# Melhorar visão inovadora
-   Meta:  Participar de projetos open source
-   Como: Contribuir com algum projeto open source
-   Periodicidade: 31/12/2022
+Legenda
+ 1 - Nenhuma experiência ou conhecimento          4 - Experiência ou conhecimento considerável
+ 2 - Pouca experiência ou conhecimento                5 - Experiência especializada ou conhecimento 
+ 3 - Experiência ou conhecimento razoável
 
-# Expandir visão do negócio de seguros
-   Meta:  Realização de curos degreed/iox
-   Como: Realizar os cursos ...
-   Periodicidade: 31/12/2022
+
+
+Soft Skills
+Habilidade	Proficiência	Interesse
+Criatividade	1	sim
+Trabalho Colaborativo	2	sim
+Capacidade de Adaptação	2	sim
+Gestão do Tempo	1	sim
+Proatividade	2	sim
+Liderança	1	sim
+
+Legenda
+ 0 - Sem capacidade          3 - Nível avançado
+ 1 - Nível básico                
+ 2 - Nível intermediário
+
+
+
+
+3.	Objetivos e Metas
+Objetivo: Aprofundamento de conhecimentos na AWS
+Resultado(s): Reduzir os custos na cloud, usar os serviços aws mais adequados para os desafios do time e comunidade
+Meta:  Realização de cursos
+Como: Fazer os cursos no https://explore.skillbuilder.aws/learn (AWS Cloud Practitioner Essentials e Developer Lerning Plan)
+Prazo: 01/11/2022
+Meta:  Testes em ambiente pessoal da AWS 
+Como: Rodar os serviços na conta pessoal a fim de testar as possibilidades de ganho na prática
+Prazo: 31/12/2022
+Meta:  Tirar certificação 
+Como: Prestar a prova para tirar a ‘AWS Certified Developer - Associate’
+Prazo: 31/01/2023
+
+Objetivo: Aprofundamento de conhecimentos na Salesforce
+Resultado(s): Visualizar oportunidades que a salesforce pode oferecer, suportar o time em dúvidas relacionadas a saleforce, melhorar o desenho de soluções integradas a salesforce
+Meta:  Realização de cursos
+Como: Fazer os cursos no https://trailhead.salesforce.com (Introdução ao Salesforce, Aprender as noções básicas de CRM para o Lightning Experience, Administrador Iniciante e Desenvolvedor Iniciante)
+Prazo: 01/11/2022
+
+
+Objetivo:  Melhorar comunicação/exposição de ideias
+Resultado(s): Desenvolvimento na transmissão de conhecimentos, aumento da confiança para transmissão a públicos maiores
+Meta:  Realização Apresentações
+Como: Apresentar conteúdos relevantes para equipe a fim de desenvolver a comunicação para um público
+Periodicidade: 15 dias/ 1 por sprint
+ 
+
+Objetivo:  Melhorar visão inovadora
+Resultado(s): Visão das práticas de mercado passíveis de uso, aplicação na forma de trabalho 
+Meta:  Participar de projetos open source
+Como: Contribuir com algum projeto open source
+Periodicidade: 31/12/2022
+
+
+Objetivo:  Expandir visão do negócio de seguros
+Resultado(s): Maior contribuição nas discussões com PM para evolução do produto
+Meta:  Realização de curos degreed/iox
+Como: Realizar os cursos ...
+Periodicidade: 31/12/2022
+
+
+
+
+
+
 
 Links:
-https://blog.solides.com.br/como-fazer-um-pdi/
-https://www.educamaisbrasil.com.br/educacao/carreira/analise-swot-pessoal-o-que-e-e-como-fazer
+•	https://blog.solides.com.br/como-fazer-um-pdi/
+•	https://www.educamaisbrasil.com.br/educacao/carreira/analise-swot-pessoal-o-que-e-e-como-fazer
+•	https://blog.solides.com.br/qual-a-diferenca-entre-soft-e-hard-skills/
+•	https://blog.solides.com.br/entenda-definitivamente-soft-skills/
+•	https://www.linkedin.com/business/learning/blog/top-skills-and-courses/the-skills-companies-need-most-in-2019-and-how-to-learn-them
