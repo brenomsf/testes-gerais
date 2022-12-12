@@ -1,0 +1,35 @@
+# Objetivo de Negócio
+		Como Squad Catálogo Comercial de Participantes, Produtos e Ofertas
+		Quero criar dashboards no splunk referente a aplicação de participantes
+		Para evoluir o observability da capacidade de 'Catálogo de Participantes'
+
+# Historia de Usuário
+		Esta história está relacionada ao produto 'Catálogo de Participantes'. O objetivo é a criação de dashboards no splunk referente a aplicação de
+		participantes a fim de evoluir o observability.
+
+# Critérios de Aceite
+		Criação dashborads que exibam a quantidade de requisições realizadas com sucesso(200) e como falha(400, 500)
+
+# Narrativa Técnica
+		Visto a necessidade de melhorar o observabily do 'Catálogo de Participantes' incialmente iremos construir dashboards de <> <> <> de maneira que futuramente possamos
+		ser capazes de criar alertas e ter uma reação mais ágil em caso de falha. Para tanto, a seguir serão descritas a ações que entendemos necessárias para atingir esse
+		objetivo.
+		
+			1. Ajuste das Logs populadas no Splunk
+				Para que seja possível criar os dashboars <> <> será necessário o ajuste das logs enviadas pela aplicação de participantes, pois atualmente não esta sendo
+				enviado informações de status code em caso de sucesso/falha. Além disso, a fim de facilitar a query do dash e a análise de problemas no futuro pelas logs, entendemos
+				que seria necessário reestruturar as logs a fim de criar um nó de 'routsteps' que irá armazenar todas as etapas logadas de um determiando fluxo.
+				
+			2. Desenvolvimento das Query
+				O dashboard no splunk é montado através dos resultados recebidos de uma determianda query construida. Abaixo seguem as querys que devm ser validadas antes
+				de serem aplicadas no painel/dashboard.
+				
+					+ Fluxo A
+						// CÓDIGO
+					
+					+ Fluxo B
+						// CÓDIGO
+			
+			3. Criação do Panel/Deshboard
+				Validas as querys do passo anterior seguir os passos descritos na documentação oficial (https://docs.splunk.com/Documentation/Splunk/9.0.2/SearchTutorial/Createnewdashboard)
+				para seguir com a criçao do painel/dashboard
